@@ -66,7 +66,8 @@ HcalBaseDQMonitor::HcalBaseDQMonitor(const edm::ParameterSet& ps)
   ievt_=0;
   levt_=0;
   tevt_=0;
-  currenttype_=-1;
+  //currenttype_=-1;
+  currenttype_=0;
   HBpresent_=false;
   HEpresent_=false;
   HOpresent_=false;

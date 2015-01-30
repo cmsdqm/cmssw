@@ -8,7 +8,7 @@ DQM = cms.Service("DQM",
                   publishFrequency = cms.untracked.double(5.0),
                   collectorPort = cms.untracked.int32(9090),
 #                  collectorHost = cms.untracked.string('dqm-prod-local.cms'),
-                  collectorHost = cms.untracked.string('dqm-c2d07-29.cms'),
+                  collectorHost = cms.untracked.string('dqm-c2d07-11.cms'),
                   filter = cms.untracked.string('')
                   )
 
